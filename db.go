@@ -14,7 +14,7 @@ import (
 
 var (
 	dbName      = "sarpedon"
-	dbURI       = "mongodb://localhost:27017"
+	dbURI       = "mongodb://mongodb:27017"
 	mongoClient *mongo.Client
 	mongoCtx    context.Context
 	timeConn    time.Time
